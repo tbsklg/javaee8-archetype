@@ -1,4 +1,4 @@
-package com.tbs-klg.boundary;
+package ${package}.boundary;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
