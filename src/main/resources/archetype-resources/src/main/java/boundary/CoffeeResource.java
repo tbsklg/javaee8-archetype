@@ -9,9 +9,12 @@ import javax.ws.rs.Path;
 @Path("coffee")
 public class CoffeeResource{
 
+    @Inject
+    @ConfigProperty(name = "bean", defaultValue = "arabica")
+    String hello;
+
     @GET
     public String coffee(){
-        return "Enjoy your coffee with Jakarta EE and Microprofile 2!";
+        return hello + " Enjoy your coffee with Jakarta EE and Microprofile 2!";
     }
 }
-
