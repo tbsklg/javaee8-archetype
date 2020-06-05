@@ -8,6 +8,7 @@ Maven archetype with dependencies for Java EE and Microprofile
   <version>8.0</version>
   <scope>provided</scope>
 </dependency>
+
 <dependency>
   <groupId>org.eclipse.microprofile</groupId>
   <artifactId>microprofile</artifactId>
